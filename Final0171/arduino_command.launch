@@ -1,0 +1,11 @@
+<launch>	
+	<node name="Turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen">
+	</node>
+	
+	<node name="MotionLog" pkg="Final0171" type="MotionLog.py" output="screen">
+	</node>
+	
+	<node name="Turtle_Control" pkg="Final0171" type="Turtle_Control.py" output="screen">
+	</node>
+	
+</launch>
